@@ -1,0 +1,36 @@
+# Node modules (pakettien kirjastot)
+node_modules/
+
+# Expo buildit
+.expo/
+.expo-shared/
+
+# macOS roskat
+.DS_Store
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Android / iOS buildit (jos myöhemmin ejectaat)
+android/
+ios/
+
+# Env-tiedostot (jos käytät esim. salaisia avaimia)
+.env
+.env.*
+
+# Expo managed keystore (buildauksessa)
+*.jks
+
+# Misc
+*.tar.gz
+*.log
+.idea/
+.vscode/
+*.apk
+*.aab
+
+# Firebase service account key (jos ikinä käytät backendissa)
+serviceAccountKey.json
